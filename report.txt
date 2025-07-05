@@ -1,0 +1,16 @@
+Incident Summary:
+
+The system recorded 3 failed login attempt(s), indicating possible brute-force activity. 
+There were 1 successful login(s), which appear normal.
+
+Detected 1 SQL injection attempt(s), suggesting a direct attack on the application's database.
+
+Additionally, there were 1 suspicious file upload(s), which could be a sign of remote shell injection.
+
+Recommendations:
+- Block repeated failed login IPs temporarily.
+- Review database firewall rules.
+- Inspect uploaded files for backdoors.
+- Enable multi-factor authentication (MFA) for all accounts.
+
+End of report.
